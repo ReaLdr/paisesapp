@@ -27,7 +27,7 @@ export class PorCapitalComponent {
         }, (err) =>{
           this.hayError = true;
           this.paises = [];
-        })
+        });
     
   }
 
